@@ -40,6 +40,10 @@ body {
   display: none;
 }
 
+.wrapper .modal_box.active {
+  display: block;
+}
+
 .wrapper .modal_box .modal_bg_shadow {
   position: fixed;
   top: 0;
