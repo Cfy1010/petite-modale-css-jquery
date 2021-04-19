@@ -24,6 +24,39 @@ body {
   cursor: pointer;
   position: absolute;
   top: 50%;
-  left: 50;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 
+.wrapper .modal_btn:hover {
+  background: #7b8d87;
+}
+
+.wrapper .modal_box{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
+.wrapper .modal_box .modal_bg_shadow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.wrapper .modal_box .modal_box_wrap {
+  width: 550px;
+  height: 250px;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 5px;
+}
